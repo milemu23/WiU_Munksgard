@@ -1,5 +1,8 @@
 
 /*-------------------------------------------  general -------------------------------------------------------*/
+html {
+    background: #666;
+}
 body{
 	font-size: 62.5%;
 	font-family: helvetica, arial, sans-serif;
@@ -14,6 +17,7 @@ body{
 	-webkit-box-shadow: 0px 0px 5px #ececec;
 	-moz-box-shadow:    0px 0px 5px #ececec;
 	box-shadow:         0px 0px 5px #ececec;
+    background: #fff;
 
 }
 /*-------------------------------------------  header -------------------------------------------------------*/
@@ -69,13 +73,11 @@ td:first-child{
 	width: 67.5%;
 	float: left;
 	font-size: 1.4em;
-
 }
 .main figure{
 	float: right;
 	margin: 15px 0 20px 0;
 	width: 30%;
-
 }
 figure img{
 	width: 100%;
